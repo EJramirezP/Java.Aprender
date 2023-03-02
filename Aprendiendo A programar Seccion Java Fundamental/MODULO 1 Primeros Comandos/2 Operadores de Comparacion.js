@@ -18,6 +18,6 @@ console.log(30 / 9);
 console.log(95 % 4);
 
 //Prueba de precedencia
-console.log(3 + 5 * 2 - 8);
+console.log((3 + 5) * 2 - 8); // Primro se resuelve lo que esta entre parentesis, luego se multiplica, luego se resta y por ultimo se suma
 
 console.log("Hola mundo");
